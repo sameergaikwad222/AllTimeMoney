@@ -22,5 +22,6 @@ body {
   /* background: linear-gradient(to bottom right, #3366ff 0%, #ffffff 100%); */
   /* background: linear-gradient(to bottom left, #0000ff 0%, #3366ff 100%); */
   background: linear-gradient(to bottom left, #3366ff 0%, #08f760 100%);
+  background-repeat: no-repeat;
   color: #fff;
 }

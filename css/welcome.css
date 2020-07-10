@@ -2,13 +2,16 @@
   display: inline;
   height: 60px;
   width: 60px;
-  position: absolute;
-  top: 0%;
+  position: absolute !important;
+  top: 8%;
   left: 80%;
+}
+
+#landing-page div {
+  position: relative;
 }
 .intro-text {
   position: absolute;
-  top: 40%;
 }
 nav .navbar-nav li a {
   color: white !important;
@@ -27,6 +30,11 @@ nav .navbar-nav li a {
   color: black;
 }
 
+.accordion {
+  max-width: 300px;
+  padding: 25px;
+  border-radius: 10%;
+}
 .team_members {
   width: 192.6;
 }
@@ -36,6 +44,8 @@ nav .navbar-nav li a {
 }
 
 #flipping-rupee {
+  height: 120px;
+  width: 100px;
   animation: myFlip 3s ease-out 3s infinite;
 }
 
@@ -96,4 +106,8 @@ footer-list-1 li {
 
 .footer-list-2 h3 {
   color: #fff;
+}
+
+.work-people img {
+  max-width: 100%;
 }
