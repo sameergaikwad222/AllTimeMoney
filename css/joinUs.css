@@ -4,14 +4,9 @@
   box-sizing: border-box;
 }
 
-#main-side-svg img {
-  display: inline;
-  transform: rotate(70deg);
-}
-
-.content {
-  position: relative;
-  background-image: url('/img/nature.png');
+#content {
+  background-image: url('../img/nature.png');
   background-repeat: no-repeat;
   background-position-x: right;
+  background-position-y: bottom;
 }
