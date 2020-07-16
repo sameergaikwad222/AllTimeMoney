@@ -19,8 +19,6 @@ nav .navbar-nav li a {
 
 nav .navbar-nav li a:hover {
   text-decoration: none;
-  /* background-color: linear-gradient(to bottom left, #08f760, #3366ff 0% 100%); */
-  /* background-color: #08f760; */
   color: #3366ff;
   border-bottom: 2px solid white;
   transform: translateY(-5px);
@@ -38,6 +36,12 @@ nav .navbar-nav li a:hover {
   text-decoration: none;
   background-color: #a3f7bf;
   color: #3366ff;
+}
+
+@media only screen and (max-width: 800px) {
+  .signIn-button {
+    margin-top: 15px;
+  }
 }
 
 #welcome_cryptonic {
@@ -84,7 +88,7 @@ h2 {
   color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #navbarSupportedContent {
     background-color: dodgerblue;
     padding: 25px;
