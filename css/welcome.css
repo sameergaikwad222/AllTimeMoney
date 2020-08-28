@@ -22,7 +22,7 @@ nav .navbar-nav li a:hover {
   color: #3366ff;
   border-bottom: 2px solid white;
   transform: translateY(-5px);
-  transition : 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .navbar-submitbutton {
